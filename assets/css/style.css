@@ -1,5 +1,5 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&family=Tai+Heritage+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Tai+Heritage+Pro:wght@400;700&display=swap');
 
 /* Wildcard Selector to override default styles added by the browser */
 * {
@@ -19,10 +19,11 @@ body {
 
 /* Temporary style to aid in layout design */
 h1 {
-    font-family: 'Tai Heritage Pro', serif;
+    font-family: 'Kanit', serif;
     color: azure;
     text-transform: uppercase;
 }
+
 
 h2,
 h3,
@@ -172,7 +173,8 @@ nav>li {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .69)
+    background-color: rgba(0, 0, 0, .69);
+    background-image: linear-gradient(black, gray, black, 0.63);
 }
 
 #cover-text {
@@ -186,7 +188,7 @@ nav>li {
 #cover-text>h2 {
     font-family: 'Tai Heritage Pro', serif;
     color: azure;
-    font-size: 150%;
+    font-size: 130%;
     text-justify: auto;
     padding-bottom: 0.5em;
 }
@@ -216,11 +218,6 @@ main {
     text-align: center;
     justify-content:space-around;
     line-height: 1cm;
-}
-
-#about-main>h2 {
-    
-    
 }
 
 #about-main>h3 {
