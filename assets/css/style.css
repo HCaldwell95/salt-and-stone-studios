@@ -13,8 +13,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a;
-    font-family: 'Tai Heritage Pro', sans-serif
+    font-family: 'Lora', serif;
+    color: #6b6565;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tai Heritage Pro', serif; 
+    color: #8a1d1d;
+    text-transform: uppercase;
 }
 
 /* Home Page */
