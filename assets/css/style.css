@@ -1,0 +1,27 @@
+/* Google Fonts Import */
+
+/* Wildcard Selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Home Page */
+
+/* Header Content */
+
+/* Main Content */
+
+/* Hero Section */
+
+/* Footer Content */
