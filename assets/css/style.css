@@ -69,6 +69,7 @@ h6 {
     #menu>li {
         margin-bottom: 1em;
         padding-right: 10%;
+        
     }
     /* Active Page Highlighter */
     .active {
@@ -93,12 +94,13 @@ h6 {
     }
 
     #nav-toggle {
-        display: none;
+    display: none;
     }
 
     .nav-toggle-label {
-        font-size: 2rem;
+    font-size: 2rem;
     }
+
 
 
     /* Hero Section */
@@ -112,7 +114,10 @@ h6 {
     }
 
 /* Main Content */
-
+main {
+    flex: 1 0 auto;
+    margin-top: 100px;
+}
 /* Hero Section */
 
 /* Footer Content */
