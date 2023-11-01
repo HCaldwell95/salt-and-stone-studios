@@ -83,11 +83,22 @@ h6 {
         right: 0;
         padding: 0 1rem;
         box-shadow: 0 2px 2px #3a3a3a;
+        display:none;
         top: 25px;
     }
 
+    /* Nav Toggle */
+    #nav-toggle:checked~nav {
+    display: block;
+    }
 
+    #nav-toggle {
+        display: none;
+    }
 
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
 
 
     /* Hero Section */
@@ -105,3 +116,5 @@ h6 {
 /* Hero Section */
 
 /* Footer Content */
+
+/* Media Queries */
