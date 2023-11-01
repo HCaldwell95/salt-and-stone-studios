@@ -18,14 +18,9 @@ body {
 }
 
 /* Temporary style to aid in layout design */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
     font-family: 'Tai Heritage Pro', serif;
-    color: #8a1d1d;
+    color: azure;
     text-transform: uppercase;
 }
 
@@ -35,89 +30,115 @@ h6 {
 
 /* Consistent Styles Across Pages */
 
-    /* Header Content */
-    header {
-    background-color: none;
-    padding: 0 1rem;
+/* Header Content */
+header {
+    background-color: #3a3a3a;
     position: fixed;
     z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    }
+}
 
-    header a {
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
+    padding-right: 0.5em;
+    color: azure;
+}
+
+#logo-salt-and-stone {
+    font-size: 80%;
+    text-align: center;
+    padding-right: 0.5em;
+}
+
+#logo-studios {
+    font-size: 200%;
+
+}
+
+header a {
     text-decoration: none;
-    color: #000000;
-    }
+    color: #ffffff;
+}
 
-    h1 {
-        font-family: 'Lora', serif;
-    }
+h1 {
+    font-family: 'Lora', serif;
+}
 
-    #menu {
-        font-size: 110%;
-        letter-spacing: 4px;
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding-right: 8rem;;
-    }
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 8rem;
+    ;
+}
 
-    #menu>li {
-        margin-bottom: 1em;
-        padding-right: 10%;
-        
-    }
-    /* Active Page Highlighter */
-    .active {
-        border: 1em solid #ffe056;
-        border-radius: 50%;
-    }
+#menu>li {
+    margin-bottom: 1em;
+    padding-right: 10%;
 
-    /* Navbar styles with dropdown toggle */
-    nav {
-        position: absolute;
-        background-color:#8a1d1d;
-        right: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display:none;
-        top: 25px;
-    }
+}
 
-    /* Nav Toggle */
-    #nav-toggle:checked~nav {
-    display: block;
-    }
+/* Active Page Highlighter */
+.active {
+    border: 1em solid #ffe056;
+    border-radius: 50%;
+}
 
-    #nav-toggle {
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #8a1d1d;
+    right: 0;
+    padding: 0 0.25rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    }
+    top: 40px;
+}
 
-    .nav-toggle-label {
-    font-size: 2rem;
-    }
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 1.5em;
+    position: relative;
+    vertical-align: middle;
+    top: 15px;
+    right: 15px;
+}
 
 
 
-    /* Hero Section */
-    
-    #hero {
+/* Hero Section */
 
-    }
+#hero {}
 
-    #cover-text {
-        font-family: 'Tai Heritage Pro', serif;
-    }
+#cover-text {
+    font-family: 'Tai Heritage Pro', serif;
+}
 
 /* Main Content */
 main {
     flex: 1 0 auto;
     margin-top: 100px;
 }
+
 /* Hero Section */
 
 /* Footer Content */
