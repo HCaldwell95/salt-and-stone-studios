@@ -70,10 +70,30 @@ h6 {
         margin-bottom: 1em;
         padding-right: 10%;
     }
-
+    /* Active Page Highlighter */
     .active {
         border: 1em solid #ffe056;
         border-radius: 50%;
+    }
+
+    /* Navbar styles with dropdown toggle */
+    nav {
+        position: absolute;
+        background-color:#8a1d1d;
+        right: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        top: 25px;
+    }
+
+
+
+
+
+    /* Hero Section */
+    
+    #hero {
+
     }
 
     #cover-text {
