@@ -202,20 +202,20 @@ nav>li {
 }
 
 /* Main Content */
+
 main {
     flex: 1 0 auto;
     position: absolute;
 }
 
-#cover-text {
-    margin-top: 75px;
-}
+/* About Section */
 
 #about {
     background-color: #ffffff;
     top: 550px;
     position: relative;
-    margin: 5px 30px;
+    margin: 5px 30px 10px;
+    
 }
 
 #about-main {
@@ -233,9 +233,31 @@ main {
     font-size: 1.5em;
     text-align: center;
     letter-spacing: 4mm;
-    padding-bottom: 0.5em;
+    margin: 0.8em 0;
     color:#000000;
 }
+
+#services {
+    margin: 10px 30px;
+    padding-top: 8px;
+}
+
+#primary-services {
+    font-size: 80%;
+    letter-spacing: .5mm;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#secondary-services {
+    font-size: 75%;
+    letter-spacing: .5mm;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 
 /* Hero Section */
 
