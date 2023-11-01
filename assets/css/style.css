@@ -33,12 +33,52 @@ h6 {
     display: none;
 }
 
-/* Home Page */
+/* Consistent Styles Across Pages */
 
-/* Header Content */
-#cover-text {
-    font-family: 'Tai Heritage Pro', serif;
-}
+    /* Header Content */
+    header {
+    background-color: none;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    }
+
+    header a {
+    text-decoration: none;
+    color: #000000;
+    }
+
+    h1 {
+        font-family: 'Lora', serif;
+    }
+
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 8rem;;
+    }
+
+    #menu>li {
+        margin-bottom: 1em;
+        padding-right: 10%;
+    }
+
+    .active {
+        border: 1em solid #ffe056;
+        border-radius: 50%;
+    }
+
+    #cover-text {
+        font-family: 'Tai Heritage Pro', serif;
+    }
 
 /* Main Content */
 
