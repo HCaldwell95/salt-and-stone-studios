@@ -41,6 +41,7 @@ header {
     align-items: baseline;
 }
 
+/* Salt And Stone Studios Logo Styles */
 #logo {
     display: flex;
     flex-direction: row;
@@ -65,6 +66,8 @@ header {
     letter-spacing: 0.5rem;
 }
 
+/* Nav Links */
+
 header a {
     text-decoration: none;
     color: #ffffff;
@@ -75,41 +78,66 @@ h1 {
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    font-size: 90%;
+    top: 30px;
+    right: 0;
+    letter-spacing: 3px;
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding-right: 8rem;
+}
+
+#menu {
+    position: absolute;
+    float: none;
+    color: black;
+    background-color: #37243f;
+    padding: 1px 0.1em;
+    text-decoration: none;
+    display: block;
+    
 }
 
 #menu>li {
     margin-bottom: 1em;
     padding-right: 10%;
+    
 
 }
 
 /* Active Page Highlighter */
 .active {
-    border: 1em solid #ffe056;
+    border-bottom: 0.1em solid #ffe056;
+    padding: 3px;
     border-radius: 50%;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #8a1d1d;
+    background-color: #37243f;
     right: 0;
     padding: 0 0.25rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 40px;
+    top: 30px;
+    width: fit-content;
+    height: fit-content;
+    text-align: right;
+}
+
+nav>li {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 /* Nav Toggle */
 #nav-toggle:checked~nav {
     display: block;
+    max-width: fit-content;
+    max-height: fit-content;
+
 }
 
 #nav-toggle {
