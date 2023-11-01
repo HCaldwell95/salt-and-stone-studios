@@ -90,17 +90,17 @@ h1 {
     position: absolute;
     float: none;
     color: black;
-    background-color: #37243f;
+    background-color: rgba(0,31,63,.83);
     padding: 1px 0.1em;
     text-decoration: none;
     display: block;
-    
+
 }
 
 #menu>li {
     margin-bottom: 1em;
     padding-right: 10%;
-    
+
 
 }
 
@@ -114,10 +114,9 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #37243f;
     right: 0;
     padding: 0 0.25rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #6b6b6b;
     display: none;
     top: 30px;
     width: fit-content;
