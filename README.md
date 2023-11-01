@@ -4,6 +4,7 @@ In this section, you will include one or two paragraphs providing an overview of
 
 Salt And Stone is a site that aims to attract and inspire musicians to come and join us in their creative endeavours. The site encourages positivity and promotes a healthy connection to the world. The target audience for this site will be musicians of all calber, film-makers and media enthusiasts alike. Salt And Stone will be useful for all interested parties who are looking for a creative space to bring their ideas to life. All information that they require will be available throughout the site, along with a comprehensive contact list for any queries beyond the original scope of the site and a booking form.
 
+*Insert Image Here
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features
