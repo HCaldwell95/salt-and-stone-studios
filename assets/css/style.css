@@ -14,13 +14,23 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lora', serif;
-    color: #ffffff;
+    color: #000000;
 }
 
 /* Temporary style to aid in layout design */
 h1 {
     font-family: 'Tai Heritage Pro', serif;
     color: azure;
+    text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Tai Heritage Pro', serif;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -32,8 +42,8 @@ h1 {
 
 /* Header Content */
 header {
-    background-color: none;
-    position: fixed;
+    background-color: transparent;
+    position: sticky;
     z-index: 99;
     width: 100%;
     display: flex;
@@ -46,7 +56,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+
     padding-bottom: 0.5em;
     padding-left: 0.25em;
     padding-right: 0.5em;
@@ -58,6 +68,7 @@ header {
     text-align: center;
     padding-right: 0.5em;
     letter-spacing: 0.2rem;
+    color: azure;
 }
 
 #logo-studios {
@@ -84,9 +95,6 @@ h1 {
     letter-spacing: 3px;
     list-style-type: none;
     padding-right: 8rem;
-}
-
-#menu {
     position: absolute;
     float: none;
     color: black;
@@ -168,8 +176,7 @@ nav>li {
 }
 
 #cover-text {
-    font-family: 'Tai Heritage Pro', serif;
-    color: #ffffff;
+    color: azure;
     text-align: center;
     font-size: 100%;
     padding-top: 5em;
@@ -177,6 +184,8 @@ nav>li {
 }
 
 #cover-text>h2 {
+    font-family: 'Tai Heritage Pro', serif;
+    color: azure;
     font-size: 150%;
     text-justify: auto;
     padding-bottom: 0.5em;
@@ -185,11 +194,22 @@ nav>li {
 /* Main Content */
 main {
     flex: 1 0 auto;
-    margin-top: 0%;
+    position: absolute;
 }
 
 #cover-text {
     margin-top: 75px;
+}
+
+#about {
+    background-color: #ffffff;
+    top: 600px;
+    position: relative;
+}
+
+#about-main {
+    text-align: center;
+    
 }
 
 /* Hero Section */
