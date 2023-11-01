@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lora', serif;
-    color: #6b6565;
+    color: #ffffff;
 }
 
 /* Temporary style to aid in layout design */
@@ -44,9 +44,9 @@ header {
 /* Salt And Stone Studios Logo Styles */
 #logo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    vertical-align: middle;
+    
     padding-bottom: 0.5em;
     padding-left: 0.25em;
     padding-right: 0.5em;
@@ -61,7 +61,7 @@ header {
 }
 
 #logo-studios {
-    font-size: 200%;
+    font-size: 150%;
     padding-top: 0.1em;
     letter-spacing: 0.5rem;
 }
@@ -90,18 +90,15 @@ h1 {
     position: absolute;
     float: none;
     color: black;
-    background-color: rgba(0,31,63,.83);
+    background-color: rgba(0, 31, 63, .83);
     padding: 1px 0.1em;
     text-decoration: none;
     display: block;
-
 }
 
 #menu>li {
     margin-bottom: 1em;
     padding-right: 10%;
-
-
 }
 
 /* Active Page Highlighter */
@@ -136,7 +133,6 @@ nav>li {
     display: block;
     max-width: fit-content;
     max-height: fit-content;
-
 }
 
 #nav-toggle {
@@ -152,8 +148,6 @@ nav>li {
     color: #ffffff;
 }
 
-
-
 /* Hero Section */
 
 #hero {
@@ -163,17 +157,29 @@ nav>li {
     position: absolute;
 }
 
+/* Colour Overlay to dim the background image */
 .color-overlay {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .63)
+    background-color: rgba(0, 0, 0, .69)
 }
 
 #cover-text {
     font-family: 'Tai Heritage Pro', serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 100%;
+    padding-top: 5em;
+    margin: 50px 50px;
+}
+
+#cover-text>h2 {
+    font-size: 150%;
+    text-justify: auto;
+    padding-bottom: 0.5em;
 }
 
 /* Main Content */
