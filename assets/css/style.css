@@ -17,10 +17,20 @@ body {
     color: #6b6565;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Tai Heritage Pro', serif; 
+/* Temporary style to aid in layout design */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Tai Heritage Pro', serif;
     color: #8a1d1d;
     text-transform: uppercase;
+}
+
+.hidden-heading {
+    display: none;
 }
 
 /* Home Page */
