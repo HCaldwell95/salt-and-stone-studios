@@ -1,29 +1,24 @@
-/* Google Fonts Import */
+/* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Tai+Heritage+Pro:wght@400;700&display=swap');
 
-/* Wildcard Selector to override default styles added by the browser */
+/* Wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* General project styles */
     font-family: 'Lora', serif;
     color: #000000;
 }
 
 /* Temporary style to aid in layout design */
-h1 {
-    font-family: 'Kanit', serif;
-    color: azure;
-    text-transform: uppercase;
-}
-
 
 h2,
 h3,
@@ -35,19 +30,22 @@ h6 {
     text-transform: uppercase;
 }
 
+/* Style to hide unwanted headings */
 .hidden-heading {
     display: none;
 }
 
+/* Style to remove underline from hyperlinks */
 a {
     text-decoration: none;
 }
 
-/* Consistent Styles Across Pages */
+/* Consistent styles across pages */
 
-/* Header Content */
+/* Header content */
 header {
     background-color: transparent;
+    padding: 0 1rem;
     position: sticky;
     z-index: 99;
     width: 100%;
@@ -56,7 +54,7 @@ header {
     align-items: baseline;
 }
 
-/* Salt And Stone Studios Logo Styles */
+/* Salt And Stone Studios logo styles */
 #logo {
     display: flex;
     flex-direction: column;
@@ -82,7 +80,7 @@ header {
     letter-spacing: 0.5rem;
 }
 
-/* Nav Links */
+/* Nav links */
 
 header a {
     text-decoration: none;
@@ -91,8 +89,11 @@ header a {
 
 h1 {
     font-family: 'Lora', serif;
+    color: azure;
+    text-transform: uppercase;
 }
 
+/* Dropdown menu */
 #menu {
     font-size: 90%;
     top: 30px;
@@ -114,7 +115,7 @@ h1 {
     padding-right: 10%;
 }
 
-/* Active Page Highlighter */
+/* Active page highlighter */
 .active {
     border-bottom: 0.1em solid #ffe056;
     padding: 3px;
@@ -141,7 +142,7 @@ nav>li {
     flex-direction: column;
 }
 
-/* Nav Toggle */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
     max-width: fit-content;
@@ -152,6 +153,7 @@ nav>li {
     display: none;
 }
 
+/* Hamburger icon */
 .nav-toggle-label {
     font-size: 1.5em;
     position: relative;
@@ -161,7 +163,7 @@ nav>li {
     color: #ffffff;
 }
 
-/* Hero Section */
+/* Hero section */
 
 #hero {
     height: 550px;
@@ -170,7 +172,7 @@ nav>li {
     position: absolute;
 }
 
-/* Colour Overlay to dim the background image */
+/* Colour overlay to dim the background image */
 .color-overlay {
     position: absolute;
     top: 0;
@@ -201,21 +203,21 @@ nav>li {
     line-height: 8mm;
 }
 
-/* Main Content */
+/* Main content */
 
 main {
     flex: 1 0 auto;
     position: absolute;
 }
 
-/* About Section */
+/* About section */
 
 #about {
     background-color: #ffffff;
     top: 550px;
     position: relative;
     margin: 5px 30px 10px;
-    
+
 }
 
 #about-main {
@@ -229,12 +231,17 @@ main {
     letter-spacing: 1mm;
 }
 
+/* Position for quick links */
 #quick-social-links {
     font-size: 1.5em;
     text-align: center;
     letter-spacing: 4mm;
     margin: 0.8em 0;
-    color:#000000;
+}
+
+/* Style for quick links to remove original hyperlink colors */
+#quick-social-links>a {
+    color: rgba(0, 31, 63, .83);
 }
 
 #services {
@@ -258,9 +265,21 @@ main {
     font-weight: 600;
 }
 
-
-/* Hero Section */
-
 /* Footer Content */
+
+footer {
+
+    position: relative;
+    bottom: 0;
+    margin: 100px, 100px;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px, 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
 /* Media Queries */
