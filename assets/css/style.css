@@ -220,7 +220,6 @@ main {
 
 #about-main {
     text-align: center;
-    justify-content: space-around;
     line-height: 1cm;
 }
 
@@ -228,6 +227,14 @@ main {
     font-size: 70%;
     padding-bottom: 1.5em;
     letter-spacing: 1mm;
+}
+
+#quick-social-links {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 4mm;
+    padding-bottom: 0.5em;
+    color:#000000;
 }
 
 /* Hero Section */
