@@ -293,11 +293,7 @@ main {
     justify-content: space-evenly;
 }
 
-#grid-photos>img {
-    border: 2px solid white;
-}
-
-#grid-photos>iframe {
+#grid-photos img, #grid-photos iframe {
     border: 2px solid white;
 }
 
@@ -310,6 +306,7 @@ footer {
     position: relative;
     bottom: 0;
     margin-top: 10px;
+    border-top: 2px ridge black;
 }
 /* Style for back-to-top class */
 .back-to-top {
@@ -322,7 +319,7 @@ footer {
 }
 /* Colouring for back-to-top icon */
 .back-to-top a {
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
 .social-networks>ul {
@@ -336,7 +333,7 @@ footer {
 }
 
 .social-networks a {
-    color: lightgoldenrodyellow;
+    color:whitesmoke;
 }
 
 #social-network-icons {
@@ -353,7 +350,7 @@ footer {
 
 #footer-block {
     text-align: center;
-    color: lightgoldenrodyellow;
+    color: rgb(210, 210, 172);
     letter-spacing: .5mm;
     font-size: 75%;
     margin: 1% 15%;
@@ -374,6 +371,7 @@ header {
 #logo {
     padding-top: 10px;
 }
+/* Transforms dropbox to full menu on display */
 #navbar {
     display: block;
     position: absolute;
@@ -385,14 +383,14 @@ header {
     top: 0;
     
 }
-
+/* Remove backgrounds and borders from menu */
 #navbar a {
     text-transform: uppercase;
     background-color: transparent;
     border: none;
     padding: 0 20px;
 }
-
+/* Positioning styles */
 #menu {
     display: flex;
     flex-direction: row;
@@ -406,10 +404,15 @@ header {
     display: none;
 }
 
-#cover-text p {
-    margin: 0 15%;
+/* Body Content */
+body p {
+    margin: 0 5%;
 }
 
+#cover-text {
+    margin: 100px 15%;
+}
+/* Grid image positioning */
 #experience {
     margin: 0 10%;
 }
@@ -425,8 +428,42 @@ header {
 /* Large devices such as laptops (1024px and up) */
 @media screen and (min-width: 1024px) {
 
+/* Amended hero image */
+figure img {
+    width: 100%
+}
+
+#cover-text {
+    margin: 100px 15%;
+}
+
+/* Grid image positioning */
+#experience {
+    margin: 0 20%;
+}
+
+footer div {
+    margin: 0 0;
+}
+
 }
 /* Largest devices such as desktops (1280px and up) */
 @media screen and (min-width: 1280px) {
+#cover-text {
+    margin-top: 100px;
+}
+
+body p {
+    margin: 0 15%;
+}
+
+#experience {
+    margin: 0 25%;
+}
+
+footer div {
+    margin: 0;
+    padding: 0;
+}
 
 }
