@@ -283,8 +283,12 @@ main {
 #grid-photos>img {
     border: 2px solid white;
 }
-/* Footer Content */
 
+#grid-photos>iframe {
+    border: 2px solid white;
+}
+
+/* Footer Content */
 footer {
 
     position: relative;
