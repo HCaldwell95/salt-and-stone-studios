@@ -195,6 +195,10 @@ figure {
     background-repeat: no-repeat;
 }
 
+#team-hero img {
+    width: 100%;
+    max-height: 450px;
+}
 
 /* Colour overlay to dim the background image */
 .color-overlay {
@@ -206,7 +210,7 @@ figure {
     background-color: rgba(0, 0, 0, .69);
     margin: 0;
     display: block;
-    height: 550px;
+    max-height: 550px;
     width: 100%;
 }
 /* Text above hero image */
@@ -225,7 +229,7 @@ figure {
     padding-bottom: 0.5em;
 }
 
-#studios-cover-heading {
+#studios-cover-heading, #team-cover-heading {
     margin-top: 100px;
     font-size: 250%;
 }
@@ -246,7 +250,7 @@ main {
     position: relative;
     margin: 5px 30px 10px;
 }
-
+/* Home page content */
 #about-main {
     text-align: center;
     line-height: 1cm;
@@ -257,13 +261,26 @@ main {
     padding-bottom: 1.5em;
     letter-spacing: 1mm;
 }
-
+/* Studios page content */
 #about-studios {
     text-align: left;
     line-height: 1cm;
 }
 
 #about-studios>h3 {
+    font-size: 70%;
+    padding-bottom: 1.5em;
+    letter-spacing: 1mm;
+    text-align: center;
+}
+
+/* Team page content */
+#about-team {
+    text-align: left;
+    line-height: 1cm;
+}
+
+#about-team>h3 {
     font-size: 70%;
     padding-bottom: 1.5em;
     letter-spacing: 1mm;
@@ -386,6 +403,11 @@ figure img {
     width: 100%;
     }
 
+#team-hero img {
+    object-fit:cover;
+    object-position: center;
+}
+
 .color-overlay {
     max-height: 450px;
     width: 100%;
@@ -469,8 +491,12 @@ body p, body h4 {
 /* Large devices such as laptops (1024px and up) */
 @media screen and (min-width: 1024px) {
 
-/* Amended hero image */
+/* Amended hero image (home) */
 #home-hero img {
+    width: 100%
+}
+
+#team-hero img {
     width: 100%
 }
 
@@ -491,19 +517,28 @@ footer div {
 /* Largest devices such as desktops (1280px and up) */
 @media screen and (min-width: 1280px) {
 
+/* Studios image amended */
 #studios-hero img {
     width: 100%;
     height:auto;
 }
+
+#team-hero img {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    background-repeat: repeat;
+}
+
 #cover-text {
     margin-top: 100px;
 }
-
+/* Studios page targetted */
 body p, body h4 {
     margin: 0 15%;
 }
 
-/* Grid image positioning */
+/* Grid image positioning (home)*/
 #experience {
     margin: 0 30%;
 }
