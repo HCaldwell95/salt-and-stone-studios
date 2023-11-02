@@ -167,6 +167,8 @@ figure {
     display: block;
     top: 0;
     left: 0;
+    height: 550px;
+    width: 150%;
 }
 
 #hero {
@@ -267,6 +269,13 @@ main {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+#grid-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 /* Footer Content */
