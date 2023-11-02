@@ -324,8 +324,8 @@ footer {
 
 .social-networks>ul {
     padding-top: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -345,7 +345,8 @@ footer {
     letter-spacing: .5mm;
     font-size: 80%;
     margin: 1% 15%;
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 10px;
 }
 
 #footer-block {
@@ -354,7 +355,13 @@ footer {
     letter-spacing: .5mm;
     font-size: 75%;
     margin: 1% 15%;
-    padding: 5% 0;
+    padding-bottom: 20px;
+}
+
+#w3c-css {
+    right: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 /* Media Queries */
@@ -457,13 +464,8 @@ body p {
     margin: 0 15%;
 }
 
+/* Grid image positioning */
 #experience {
-    margin: 0 25%;
+    margin: 0 30%;
 }
-
-footer div {
-    margin: 0;
-    padding: 0;
-}
-
 }
