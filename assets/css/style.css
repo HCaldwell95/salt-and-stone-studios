@@ -189,7 +189,7 @@ figure {
     display: block;
     top: 0;
     left: 0;
-    height: 550px;
+    max-height: 550px;
     width: 100%;
     overflow: hidden;
     object-position: right;
@@ -365,6 +365,25 @@ footer {
 }
 
 /* Media Queries */
+@media screen and (max-width: 767px) {
+figure img {
+    height: 450px;
+    width: 100%;
+    }
+
+.color-overlay {
+    max-height: 450px;
+    width: 100%;
+}
+
+#cover-text {
+    margin-top: 0;
+}
+
+#about {
+    margin-top: 0;
+}
+}
 
 /* Medium devices such as tables (768px and up) */
 @media screen and (min-width: 768px) {
