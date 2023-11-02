@@ -168,7 +168,8 @@ figure {
     top: 0;
     left: 0;
     height: 550px;
-    width: 150%;
+    width: 180%;
+    object-fit: cover;
 }
 
 #hero {
@@ -276,8 +277,12 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
+#grid-photos>img {
+    border: 2px solid white;
+}
 /* Footer Content */
 
 footer {
