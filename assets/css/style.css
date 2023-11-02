@@ -96,49 +96,45 @@ header a {
 
 /* Dropdown menu */
 #menu {
-    font-size: 100%;
+    font-size: 70%;
     text-align: center;
     top: 25px;
     right: 0;
     letter-spacing: 3px;
     list-style-type: none;
-    padding-right: 8rem;
     position: absolute;
     float: none;
-    color: black;
     padding: 1px 0.2em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #menu>li {
     margin-bottom: 1em;
-    padding: 5% 10%;
+    padding: 0;
 }
 
 .nav-dropdown-singular {
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 20px;
-
+    display: flex;
+    align-items: center;
 }
 
 /* Active page highlighter */
 .active {
-    border-bottom: 0.1em solid #ffe056;
+    /*border-bottom: 0.1em groove #ffe056;
     padding: 3px;
-    border-radius: 50%;
+    border-radius: 50%; */
 }
 
 /* Nav bar styles with dropdown toggle */
 #navbar {
     position: absolute;
     right: 0;
-    padding: 0.25rem;
+    padding: 0 .25rem;
     display: none;
     top: 25px;
-    
 }
 
 nav>li {
@@ -146,13 +142,16 @@ nav>li {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-right: 20px;
+    padding-right: 10px;
+    width: 100%;
 }
 
 #navbar a {
-    text-align: center;
-    color: #ffffff;
     text-transform: uppercase;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px 20px;
 }
 
 /* Nav toggle */
