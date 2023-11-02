@@ -110,7 +110,7 @@ header a {
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* Positioning */
 #menu>li {
     margin-bottom: 1em;
     padding: 0;
@@ -123,9 +123,9 @@ header a {
 
 /* Active page highlighter */
 .active {
-    /*border-bottom: 0.1em groove #ffe056;
+    color:darkgoldenrod;
     padding: 3px;
-    border-radius: 50%; */
+    border-radius: 50%;
 }
 
 /* Nav bar styles with dropdown toggle */
@@ -177,13 +177,12 @@ nav>li {
 
 /* Main Content */
 
-/* Hero section */
+/* Hero section (home)*/
 #hero {
-
     width: 100%;
     position: relative;
 }
-
+/* Hero image styles (home) */
 figure {
     margin: 0;
     display: block;
@@ -210,7 +209,7 @@ figure {
     height: 550px;
     width: 100%;
 }
-
+/* Text above hero image */
 #cover-text {
     color: azure;
     text-align: center;
@@ -222,16 +221,20 @@ figure {
 #cover-text>h2 {
     font-family: 'Tai Heritage Pro', serif;
     color: azure;
-    font-size: 130%;
     text-justify: auto;
     padding-bottom: 0.5em;
+}
+
+#studios-cover-heading {
+    margin-top: 100px;
+    font-size: 250%;
 }
 
 #cover-text>p {
     line-height: 8mm;
 }
 
-/* Style to push main content to fill */
+/* Style to push main content to fill page */
 main {
     flex: 1 0 auto;
 }
