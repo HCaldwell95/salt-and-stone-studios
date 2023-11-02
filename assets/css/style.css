@@ -258,6 +258,18 @@ main {
     letter-spacing: 1mm;
 }
 
+#about-studios {
+    text-align: left;
+    line-height: 1cm;
+}
+
+#about-studios>h3 {
+    font-size: 70%;
+    padding-bottom: 1.5em;
+    letter-spacing: 1mm;
+    text-align: center;
+}
+
 /* Position for quick links */
 #quick-social-links {
     font-size: 1.5em;
