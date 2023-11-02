@@ -470,7 +470,7 @@ body p, body h4 {
 @media screen and (min-width: 1024px) {
 
 /* Amended hero image */
-figure img {
+#home-hero img {
     width: 100%
 }
 
@@ -490,11 +490,16 @@ footer div {
 }
 /* Largest devices such as desktops (1280px and up) */
 @media screen and (min-width: 1280px) {
+
+#studios-hero img {
+    width: 100%;
+    height:auto;
+}
 #cover-text {
     margin-top: 100px;
 }
 
-body p {
+body p, body h4 {
     margin: 0 15%;
 }
 
