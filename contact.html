@@ -26,6 +26,7 @@
 <!-- START OF BODY -->
 
 <body>
+    <!-- Header Content -->
     <header id="header">
         <!-- Logo -->
         <a href="index.html" id="logo">
@@ -42,14 +43,12 @@
             <ul id="menu">
                 <li><a href="index.html" class="nav-dropdown-singular">Home</a></li>
                 <li><a href="studios.html" class="nav-dropdown-singular">Studios</a></li>
-                <li><a href="team.html" class="active nav-dropdown-singular">Team</a></li>
-                <li><a href="contact.html" class="nav-dropdown-singular">Contact</a></li>
+                <li><a href="team.html" class="nav-dropdown-singular">Team</a></li>
+                <li><a href="contact.html" class="active nav-dropdown-singular">Contact</a></li>
                 <li><a href="booking-form.html" class="nav-dropdown-singular">Bookings</a></li>
             </ul>
         </nav>
     </header>
-
-    <!-- END OF HEADER -->
 
     <!-- START OF MAIN-->
 
@@ -58,55 +57,71 @@
         <section id="hero">
             <!-- Figure used to maintain positioning of page sections -->
             <figure id="team-hero">
-                <img src="assets/images/team-interior-2.webp" alt="Image showing team members gathered around a desk">
+                <img src="assets/images/contact-interior-1.jpg" alt="Image showing team members gathered around a desk">
             </figure>
             <!-- Transparent colouring dark -->
             <div class="color-overlay">
                 <!-- White cover text for contrast -->
                 <div id="cover-text">
-                    <h2 id="team-cover-heading">Meet The Team</h2>
+                    <h2 id="contact-cover-heading">Contact Us</h2>
                 </div>
             </div>
         </section>
 
         <!-- About section -->
         <section id="about">
-            <div id="about-team">
-                <h2 class="hidden-heading">Meet The Team</h2>
-                <h3>The bonds within a team are the heartstrings of collaboration, creating a harmonious symphony.</h3>
+            <div id="about-contact">
+                <h2 class="hidden-heading">Contact Us</h2>
+                <h3>We'd love to hear from you!</h3>
             </div>
-            <!-- Calling Cards -->
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="assets/images/team-wade.jpg" alt="An image of Wade" style="width:100%">
-                    <div class="container">
-                        <h2>Wade</h2>
-                        <p class="title">Lead Sound Engineer &amp; Founder</p>
-                        <p>With 30+ years in the business, Wade has a wealth of industry knowledge and can lend his hand to just about any instrument.</p>
+
+            <!-- Contact Information -->
+            <section class="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text">
+                        <h3>Address</h3>
+                        <p>Salt And Stone Studios<br>Betws-y-Coed<br>LL24 0BN<br>Wales</p>
                     </div>
                 </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <img src="assets/images/team-dallas.jpg" alt="An image of Dallas" style="width:100%">
-                    <div class="container">
-                        <h2>Dallas</h2>
-                        <p class="title">Creative Director &amp; Founder</p>
-                        <p>With 35+ years in the business, Dallas practically reinvented song-writing and is a master of his craft.</p>
-                    </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                    <h3>Phone</h3>
+                    <p>01234 567890</p>
                 </div>
             </div>
-            <div class="column">
-                <div class="card">
-                    <img src="assets/images/team-blake.jpg" alt="An image of Blake." style="width:100%">
-                    <div class="container">
-                        <h2>Blake 'The Sound Guy'</h2>
-                        <p class="title">Sound Technician &amp; Founder</p>
-                        <p>Often looking for puzzles, Blake is the go-to guy for anything technical. With only 20+ years in the business, you won't find many with more knowledge and musical capabilities than him.</p>
-                    </div>
-                </div>
+            <div class="box">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="text">
+                <h3>Email</h3>
+                <p>info@salt-and-studios.co.uk</p>
             </div>
+        </div>
+    </div>
+
+        <div class="contact-form">
+            <form>
+                <h2>Send Message</h2>
+                <div class="input-box">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="input-box">
+                    <textarea required="required"></textarea>
+                    <span>Type Your Message...</span>
+                </div>
+                <div class="input-box">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
         </div>
         </section>
     </main>

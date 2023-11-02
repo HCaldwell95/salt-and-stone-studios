@@ -235,8 +235,8 @@ figure {
     padding-bottom: 0.5em;
 }
 
-#studios-cover-heading, #team-cover-heading {
-    margin-top: 100px;
+#studios-cover-heading, #team-cover-heading, #contact-cover-heading {
+    margin-top: 50px;
     font-size: 250%;
 }
 
@@ -349,8 +349,21 @@ main {
     text-align: center;
 }
 
+/* Contact Information Styles */
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
 
 
 
