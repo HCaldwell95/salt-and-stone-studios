@@ -175,6 +175,12 @@ nav>li {
     color: #ffffff;
 }
 
+
+
+
+
+
+
 /* Main Content */
 
 /* Hero section (home)*/
@@ -243,6 +249,9 @@ main {
     flex: 1 0 auto;
 }
 
+
+
+
 /* About section */
 #about {
     background-color: #ffffff;
@@ -261,6 +270,9 @@ main {
     padding-bottom: 1.5em;
     letter-spacing: 1mm;
 }
+
+
+
 /* Studios page content */
 #about-studios {
     text-align: left;
@@ -274,6 +286,9 @@ main {
     text-align: center;
 }
 
+
+
+
 /* Team page content */
 #about-team {
     text-align: left;
@@ -286,6 +301,21 @@ main {
     letter-spacing: 1mm;
     text-align: center;
 }
+
+
+/* Meet The Team Calling Cards */
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+
+
+
 
 /* Position for quick links */
 #quick-social-links {
@@ -328,6 +358,10 @@ main {
 #grid-photos img, #grid-photos iframe {
     border: 2px solid white;
 }
+
+
+
+
 
 /* Footer Content */
 footer {
@@ -472,14 +506,20 @@ body p, body h4 {
     margin: 0 5%;
 }
 
+
 #cover-text {
     margin: 100px 15%;
 }
+
+#team-cover-heading {
+    margin: 50px 50px;
+}
+
 /* Grid image positioning */
 #experience {
     margin: 0 10%;
 }
-
+/* Footer content */
 .social-networks {
     margin: 0 20%;
 }
