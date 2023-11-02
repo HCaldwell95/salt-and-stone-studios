@@ -446,7 +446,7 @@ header {
 }
 
 /* Body Content */
-body p {
+body p, body h4 {
     margin: 0 5%;
 }
 
