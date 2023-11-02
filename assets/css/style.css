@@ -105,13 +105,9 @@ header a {
     position: absolute;
     float: none;
     color: black;
-    background-color: rgba(224, 225, 226, 0.90);
+    background-color: black;
     padding: 1px 0.2em;
-    text-decoration: none;
     display: block;
-    border: 2px dotted rgb(0, 0, 0);
-    border-top: transparent;
-    border-bottom-left-radius: 15%;
 }
 
 #menu>li {
@@ -119,7 +115,7 @@ header a {
     padding: 5% 10%;
 }
 
-.nav-dropdown-individual {
+.nav-dropdown-singular {
     background-color:#242323;
     width: 80px;
     height: 50px;
@@ -195,7 +191,6 @@ figure {
     width: 100%;
     overflow: hidden;
     object-position: right;
-
     background-repeat: no-repeat;
 }
 
@@ -234,7 +229,7 @@ figure {
     line-height: 8mm;
 }
 
-/* Style to push main content to fill 
+/* Style to push main content to fill */
 main {
     flex: 1 0 auto;
 }
@@ -273,11 +268,6 @@ main {
 
 /* Styles for services content */
 #services {
-    margin: 10px 30px;
-    padding-top: 8px;
-}
-
-#primary-services {
     font-size: 80%;
     letter-spacing: .5mm;
     text-align: center;
