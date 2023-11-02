@@ -106,7 +106,6 @@ header a {
     position: absolute;
     float: none;
     color: black;
-    background-color: black;
     padding: 1px 0.2em;
     display: flex;
     flex-direction: column;
@@ -121,6 +120,7 @@ header a {
 .nav-dropdown-singular {
     background-color: black;
     border: 1px solid white;
+    border-radius: 20px;
 
 }
 
