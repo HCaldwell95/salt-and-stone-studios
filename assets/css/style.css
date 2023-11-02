@@ -322,7 +322,7 @@ footer {
 }
 /* Colouring for back-to-top icon */
 .back-to-top a {
-    color: #ffffff;
+    color: lightgoldenrodyellow;
 }
 
 .social-networks>ul {
@@ -336,7 +336,7 @@ footer {
 }
 
 .social-networks a {
-    color: #ffffff;
+    color: lightgoldenrodyellow;
 }
 
 #social-network-icons {
@@ -353,6 +353,7 @@ footer {
 
 #footer-block {
     text-align: center;
+    color: lightgoldenrodyellow;
     letter-spacing: .5mm;
     font-size: 75%;
     margin: 1% 15%;
@@ -360,3 +361,72 @@ footer {
 }
 
 /* Media Queries */
+
+/* Medium devices such as tables (768px and up) */
+@media screen and (min-width: 768px) {
+
+/*Header */
+header {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+#logo {
+    padding-top: 10px;
+}
+#navbar {
+    display: block;
+    position: absolute;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    background-color: white;
+    right: 0;
+    top: 0;
+    
+}
+
+#navbar a {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    padding: 0 20px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu>li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+#cover-text p {
+    margin: 0 15%;
+}
+
+#experience {
+    margin: 0 10%;
+}
+
+.social-networks {
+    margin: 0 20%;
+}
+
+#footer-address {
+    margin: 0 30%;
+}
+}
+/* Large devices such as laptops (1024px and up) */
+@media screen and (min-width: 1024px) {
+
+}
+/* Largest devices such as desktops (1280px and up) */
+@media screen and (min-width: 1280px) {
+
+}
