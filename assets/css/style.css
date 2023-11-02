@@ -309,12 +309,16 @@ footer {
     font-size: 110%;
 }
 
-#social-networks {
-    text-align: center;
+.social-networks>ul {
     padding: 20px 0;
-    display: flex;
+    display:flex;
+    flex-direction:row;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+#social-network-icons {
+    margin: 0 5px;
 }
 
 /* Media Queries */
