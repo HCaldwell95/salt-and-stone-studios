@@ -302,6 +302,19 @@ main {
     text-align: center;
 }
 
+/* Contact page content */
+#about-contact {
+    text-align: left;
+    line-height: 1cm;
+}
+
+#about-contact>h3 {
+    font-size: 70%;
+    padding-bottom: 1.5em;
+    letter-spacing: 1mm;
+    text-align: center;
+}
+
 
 
 
@@ -349,7 +362,12 @@ main {
     text-align: center;
 }
 
+
+
+
 /* Contact Information Styles */
+
+/* Positioning styles for contact info */
 .contact {
     position: relative;
     min-height: 100vh;
@@ -364,6 +382,84 @@ main {
     max-width: 800px;
     text-align: center;
 }
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact .contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contact-info .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+/* Address, phone and email text styles */
+.container .contact-info .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000000;
+    flex-direction: column;
+    font-weight: 300;
+}
+/* Address, phone and email header styles */
+.container .contact-info .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+/* Contact form sizing and background styles */
+.contact-form {
+    width: 40%;
+    padding: 40px;
+    background: #f3f3f3;
+}
+
+/* Contact form heading styling */
+.contact-form h2 {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 500;
+}
+
+/* Input box positioning and margin */
+.contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Input box sizing and styling */
+.contact-form .input-box input {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333333;
+    outline: none;
+}
+
 
 
 
