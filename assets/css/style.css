@@ -350,8 +350,9 @@ main {
     display: table;
 }
 .title {
-    color: grey;
+    color: rgb(2, 30, 91);
     padding-bottom: 5px;
+    font-weight: 400;
 }
 .container h2 {
     font-size: 90%;
@@ -367,27 +368,11 @@ main {
 .contact {
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    padding: 5% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.contact .contact-content {
-    max-width: 800px;
-    text-align: center;
-}
-
-.contact .contact-content h2 { 
-    font-size: 36px;
-    font-weight: 500;
-    color: #fff;
-}
-
-.contact .contact-content p { 
-    font-weight: 300;
-    color: #fff;
 }
 
 .contact-container {
@@ -395,7 +380,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 3%;
 }
 
 .contact .contact-info {
@@ -406,7 +391,7 @@ main {
 
 .contact-container .contact-info .box {
     position: relative;
-    padding: 20px 0;
+    padding: 2% 0;
     display: flex;
 }
 
@@ -429,6 +414,7 @@ main {
     color: #000000;
     flex-direction: column;
     font-weight: 300;
+    align-items: left;
 }
 /* Address, phone and email header styles */
 .contact-container .contact-info .box .text h3 {
@@ -496,6 +482,8 @@ main {
 /* Styles to move title text in response to valid text being entered */
 .contact-form .input-box input:focus ~ span,
 .contact-form .input-box input:valid ~ span,
+.contact-form .input-box input[type="email"]:focus ~ span,
+.contact-form .input-box input[type="email"]:valid ~ span,
 .contact-form .input-box textarea:focus ~ span,
 .contact-form .input-box textarea:valid ~ span {
     color: red;
