@@ -171,12 +171,6 @@ nav>li {
     color: #ffffff;
 }
 
-
-
-
-
-
-
 /* Main Content */
 
 /* Hero section (home)*/
@@ -245,9 +239,6 @@ main {
     flex: 1 0 auto;
 }
 
-
-
-
 /* About section */
 #about {
     background-color: #ffffff;
@@ -267,8 +258,6 @@ main {
     letter-spacing: 1mm;
 }
 
-
-
 /* Studios page content */
 #about-studios {
     text-align: left;
@@ -281,9 +270,6 @@ main {
     letter-spacing: 1mm;
     text-align: center;
 }
-
-
-
 
 /* Team page content */
 #about-team {
@@ -311,11 +297,7 @@ main {
     text-align: center;
 }
 
-
-
-
 /* Meet The Team Calling Cards */
-
 /* Three columns side by side */
 .column {
     float: left;
@@ -358,9 +340,6 @@ main {
     font-size: 90%;
     text-align: center;
 }
-
-
-
 
 /* Contact Information Styles */
 
@@ -414,7 +393,6 @@ main {
     color: #000000;
     flex-direction: column;
     font-weight: 300;
-    align-items: left;
 }
 /* Address, phone and email header styles */
 .contact-container .contact-info .box .text h3 {
@@ -563,10 +541,6 @@ main {
     border: 2px solid white;
 }
 
-
-
-
-
 /* Footer Content */
 footer {
     background-color: lightslategrey;
@@ -682,8 +656,8 @@ header {
     background-color: white;
     right: 0;
     top: 0;
-    
 }
+
 /* Remove backgrounds and borders from menu */
 #navbar a {
     text-transform: uppercase;
