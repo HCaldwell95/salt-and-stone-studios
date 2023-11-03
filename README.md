@@ -4,6 +4,8 @@ In this section, you will include one or two paragraphs providing an overview of
 
 Salt And Stone is a site that aims to attract and inspire musicians to come and join us in their creative endeavours. The site encourages positivity and promotes a healthy connection to the world. The target audience for this site will be musicians of all calber, film-makers and media enthusiasts alike. Salt And Stone will be useful for all interested parties who are looking for a creative space to bring their ideas to life. All information that they require will be available throughout the site, along with a comprehensive contact list for any queries beyond the original scope of the site and a booking form.
 
+ADD LINK
+
 *Insert Image Here
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
@@ -11,7 +13,7 @@ Salt And Stone is a site that aims to attract and inspire musicians to come and 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-### Existing Features
+### Existing Features SCREENSHOTS OF FEATURE DISCUSSING - EVERYTHING IS A FEATURE EVEN PARAGRAPHS
 
 - __Navigation Bar__
 
@@ -65,11 +67,11 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
+### Features Left to Implement NOT REQUIRED 
 
 - Another feature idea
 
-## Testing
+## Testing MOST IMPORTANT - EVERYTHING NOT MENTIONED WILL BE IGNORED. BREAKDOWN PROJECT SIMILAR TO FEATURES AND EXPLAIN HOW IT HAS BEEN TESTED. TEST RESPONSIVENESS AND EFFECTS ETC SOCIAL MEDIA TO NEW PAGE AND CORRECT SITE - 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -79,29 +81,29 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-### Validator Testing
+### Validator Testing DONE LIGHTHOUSE (IF)
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+### Unfixed Bugs NO SITE BREAKING BUGS IS FINE - NOTE FINDINGS
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-## Deployment
+## Deployment FORKING AND CLONING explain how to do these things.
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
+  - From the source section drop-down menu, select the Main (UPDATE) Reword all references to master to main
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
 
-## Credits
+## Credits - CODE REFERENCES - MENTION CODE INSTITUTE - IMAGES (LINK INSTAGRAM) PIXELS / UNSPLASH - GOOGLE IMAGES SEARCH CORRECT: LINK TO SITE OR PAGE MULTIPLE SOURCES AND LINKS IN BULLET POINTS (NO COPYRIGHT TEXT) PROJECT MADE SOLELY FOR EDUCATIONAL PURPOSE
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
@@ -120,7 +122,7 @@ You can break the credits section up into Content and Media, depending on what y
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
-## Other General Project Advice
+## Other General Project Advice REMOVE OR FINAL PARAGRAPH OR POTENTIAL ISSUES (CODEANYWHERE ISSUE) OTHER USER SHOWN ON GITHUB FEEDBACK
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
 
@@ -136,3 +138,8 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+GOOGLE FORM - ASUME IT'S BROKEN! 9AM SUBMIT - EMAIL CONFIRMATION - REPOSITORY SHOW FORKED DO NOT TOUCH PROJECT AFTER SUBMISSION. FINAL VALIDATION CHECK PRIOR TO SUBMITTING MENTION WHAT SCREEN SIZES IN THE TESTING SECTION.
+
+CONTACT TITLE = CHANGE COLOUR 
+FONT LARGER ON HERO IMAGE
+CHANGE GRID ON LAPTOP SCREEN
