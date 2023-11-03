@@ -1,9 +1,23 @@
-# Salt And Stone
+# Salt And Stone Studios - My Milestone Project
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+IMAGE
 
-https://hcaldwell95.github.io/salt-and-stone-studios/ 
+
+
+Welcome to my first milestone project, Salt And Stone Studios.
+
+After ten years in the Construction Industry, I decided it was time for a change. I have always had an interest in computing and had always dreamed of having a job where I could utilise my computer skills, but the opportunity never came. Earlier this year, I decided to take a leap of faith and enroll in a Full Stack Development course.
+
+The purpose of this project is to demonstrate my learning and understanding of the HTML and CSS modules that I have completed thus far and to implement them into a live project. This was a great opportunity to showcase my skills in design and development. The project is a fucntional website, built with HTML and CSS.
+
+Below, I will outline each step of the process and my reasonings used to plan this project. I will reference my sources and highlight my focus on user experience design.
+
+### UX - User Experience Design
+
+
 Salt And Stone is a site that aims to attract and inspire musicians to come and join us in their creative endeavours. The site encourages positivity and promotes a healthy connection to the world. The target audience for this site will be musicians of all calber, film-makers and media enthusiasts alike. Salt And Stone will be useful for all interested parties who are looking for a creative space to bring their ideas to life. All information that they require will be available throughout the site, along with a comprehensive contact list for any queries beyond the original scope of the site and a booking form.
+
+<a href="https://hcaldwell95.github.io/salt-and-stone-studios/">View live project here</a>
 
 ADD LINK
 

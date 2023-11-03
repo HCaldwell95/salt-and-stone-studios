@@ -757,7 +757,10 @@ body p, body h4 {
 }
 
 /* Grid image positioning (home)*/
-#experience {
-    margin: 0 30%;
+
+
+#grid-photos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 }
