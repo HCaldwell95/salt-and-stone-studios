@@ -134,6 +134,8 @@ In this section, you should go over the different parts of your project, and des
 - __Logo__
   - The logo for my project is stamped in the top left corner of the header and is consistent through every page. This serves as a constant reminder of where the user is and promotes connection.
 
+  <br>
+
   <img src="assets/images/logo-home-readme.png" alt="Image showing logo of website on Home page">
   <img src="assets/images/logo-studios-readme.png" alt="Image showing logo of website on Studios page">
   <img src="assets/images/logo-team-readme.png" alt="Image showing logo of website on Team page">
@@ -175,6 +177,8 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 - __Quick Links__
 
   - This section allows the user to quickly navigate to the project's most popular social media pages.
+
+  <br>
 
   <img src="assets/images/quick-links-readme.png" alt="Image showing the quick links to YouTube and TikTok on the website">
 
@@ -254,7 +258,7 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 
 ### Validator Testing
 
-I used the  <a href="https://validator.w3.org/">W3C CSS Validator</a> and <a href="https://validator.w3.org/">W3C CSS Validator</a> to validate every page of the project to ensure there were no syntax errors in the project.
+I used the  <a href="https://validator.w3.org/">W3C HTML Validator</a> and <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a> to validate every page of the project to ensure there were no syntax errors in the project.
 
 - No errors were returned when passing through the official <a href="https://validator.w3.org/">W3C Markup Validator</a>.
 - No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.
@@ -322,7 +326,7 @@ The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone
   - Idea for the contact us page and form taken from their video. <a href="https://www.youtube.com/watch?v=gggB0Nq5vBk&t=654s">Link to video</a>
 
 - <a href="https://www.w3.org/">World Wide Web Consortium (W3C)</a>
-  - Provided access to many 'How To' pages, namely the contact cards in contact.html. Provided specific guide for 'Meet The Team' cards. <a href="https://www.w3schools.com/howto/howto_css_team.asp">Link to page</a>
+  - Provided access to many 'How To' pages, namely the team cards in team.html. Provided specific guide for 'Meet The Team' cards. <a href="https://www.w3schools.com/howto/howto_css_team.asp">Link to page</a>
 
 ### Media
 
@@ -344,7 +348,7 @@ The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone
 <br>
 
 - <a href="https://www.youtube.com/channel/UCbd18DQEmUApY3vE_N9UYOg">YouTube @ City And Colour</a> - The embedded video on my home page is from City And Colour's YouTube page.
-<a href="https://www.youtube.com/watch?v=DPjf5fGwQg0">Link to video</a>
+  - <a href="https://www.youtube.com/watch?v=DPjf5fGwQg0">Link to video used</a>
 
 - All fonts were taken from <a href="https://fonts.google.com/">Google Fonts</a>.
 
