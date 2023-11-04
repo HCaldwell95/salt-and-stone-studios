@@ -175,12 +175,26 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-### Validator Testing DONE LIGHTHOUSE (IF)
+### Further Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- The project was tested on the following browsers with success: Google Chrome, Microsoft Edge and Mozilla Firefox.
+- The project was manually tested on an iPhone 12 Pro Max, iPhone 13 and iPad Pro 12.9 with success.
+- Mozilla Firefox Developer tools were used throughout the project to help test the responsiveness across multiple device options.
+- Mozilla Firefox Developer Tools used to emulate screen sizes below:
+  - 360px x 640px (Standard Phone)
+  - 810px x 1080px (iPad)
+  - 1280px x 900px (Laptop)
+  - 1440px x 900px (Desktop)
+
+### Validator Testing
+
+I used the  <a href="https://validator.w3.org/">W3C CSS Validator</a> and <a href="https://validator.w3.org/">W3C CSS Validator</a> to validate every page of the project to ensure there were no syntax errors in the project.
+
+- No errors were returned when passing through the official <a href="https://validator.w3.org/">W3C Markup Validator</a>.
+- No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.
+
+Testing User stories from User Experience Design (UX) Section
+
 
 ### Unfixed Bugs NO SITE BREAKING BUGS IS FINE - NOTE FINDINGS
 
@@ -219,11 +233,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 
 The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone-studios>
 
-## Credits - CODE REFERENCES - MENTION CODE INSTITUTE - IMAGES (LINK INSTAGRAM) PIXELS / UNSPLASH - GOOGLE IMAGES SEARCH CORRECT: LINK TO SITE OR PAGE MULTIPLE SOURCES AND LINKS IN BULLET POINTS (NO COPYRIGHT TEXT) PROJECT MADE SOLELY FOR EDUCATIONAL PURPOSE
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+## Credits
 
 ### Content
 
@@ -237,10 +247,6 @@ You can break the credits section up into Content and Media, depending on what y
 
 - <a href="https://www.w3.org/">World Wide Web Consortium (W3C)</a>
   - Provided access to many 'How To' pages, namely the contact cards in contact.html. Provided specific guide for 'Meet The Team' cards. <a href="https://www.w3schools.com/howto/howto_css_team.asp">Link to page</a>
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
