@@ -100,66 +100,86 @@ Salt And Stone is a site that aims to attract and inspire musicians to come and 
 
 <a href="https://hcaldwell95.github.io/salt-and-stone-studios/">View live project here</a>
 
-
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
-
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features SCREENSHOTS OF FEATURE DISCUSSING - EVERYTHING IS A FEATURE EVEN PARAGRAPHS
 
+- __Logo__
+  - The logo for my project is stamped in the top left corner of the header and is consistant through every page. This serves as a constant reminder of where the user is and promotes connection.
+
+  <img src="assets/images/logo-home-readme.png" alt="Image showing logo of website on Home page">
+  <img src="assets/images/logo-studios-readme.png" alt="Image showing logo of website on Studios page">
+  <img src="assets/images/logo-team-readme.png" alt="Image showing logo of website on Team page">
+  <img src="assets/images/logo-contact-readme.png" alt="Image showing logo of website on Contact page">
+
+
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+The fully responsive navigation bar, featured consistently on all four pages, contains links to the Home, Studios, Team and Contact pages. Its consistency across all pages ensures seamless navigation, regardless of the user's device, eliminating the need to rely on the browser's 'back' button for page transitions. On mobile devices, the navigation bar is nested within a hamburger icon; once clicked, it reveals a dropdown menu, ultimately saving precious screen real estate on smaller devices.
+<div id="nav-bar-readme">
+<img src="assets/images/navbar-dropdown.png" alt="Image demonstrating navigation bar dropdown menu">
+<img src="assets/images/navbar-extended.png" alt="Image demonstrating navigation bar extended on larger screens">
+</div>
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+- __The Landing Page__
 
-- __The landing page image__
+  - The Landing Page features a captivating photograph, overlayed with text, offering users a clear sense of the site's relevance to specific locations. This section introduces the website and reassures users that they are in the right place.
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+<img src="assets/images/landing-page-readme.png" alt="Image showing landing page of website">
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+- __About Section__
 
-- __Club Ethos Section__
+  - The about section will allow the user to get to know the Studio and its history. This user will see the value of looking further into this website and exploring everything that it has to offer.. This should encourage the user to consider booking time in at our studio or be inspired and get creative.
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+  <img src="assets/images/about-readme.png" alt="Image showing about section of website">
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Quick Links__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+  - This section allows the user to quickly navigate to the project's most popular social media pages.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  <img src="assets/images/quick-links-readme.png" alt="Image showing the quick links to YouTube and TikTok on the website">
+
+- __Services Section__
+
+  - The services section provides the user with a brief list of services that the studio provides. This enables the user to quickly determine whether this website is suitable for their needs.
+
+  <img src="assets/images/services-readme.png" alt="Image showing the services provided"></a>
+
+- __Experiences Image Grid__
+
+  - This section displays three images and a video, all of which represent the studio in some sense. The first image is of Snowdonia, the area that the studio is based in. The video demonstrates a world famous musician recording an album in the studio. The final two images are of famous musicians who have used the studios services in the past. This section will both entice and reassure users that this is an authentic website, providing high quality services.
+
+  <img src="assets/images/experience-grid-readme.png" alt="Image showing the experience grid section of the website">
+
+<br>
 
 - __The Footer__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+- The footer contains a 'Back To The Top!' button, disguised as a simple up arrow icon. There are also four links to the most popular social media websites, along with the studio address and a small emblem representing the studios date of establishment. 
+- The footer is consistant throughout the website, allowing users to become familiar with the navigation between pages. The social media features encourage user loyalty as they are able to connect deeper through social media links.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+<img src="assets/images/footer-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button>
 
-- __Gallery__
+- __The Studios Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+  - The studios page provides the user with a run down of the current set up at the studio. There are links available to the equipment that the studio use, along with detailed information of the capabilities of each studio.
+  - This section is valuable to the user as they can determine whether the equipment available suits their needs and they can also learn a little more about said equipment through the links provided to each piece.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+<a href="assets/images/studios-readme.png" alt="Image showing the Studios page"></a>
 
-- __The Sign Up Page__
+- __The Team Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+<a href="assets/images/team-readme.png" alt="Image showing the Team page"></a>
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __The Contact Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+<a href="assets/images/contact-readme.png" alt="Image showing the Contact"></a>
 
 ### Features Left to Implement NOT REQUIRED 
 
@@ -174,6 +194,11 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+Separate File to demonstrate:
+
+
+
 
 ### Further Testing
 
@@ -198,7 +223,22 @@ Testing User stories from User Experience Design (UX) Section
 
 ### Unfixed Bugs NO SITE BREAKING BUGS IS FINE - NOTE FINDINGS
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+I discovered that my CSS didn't quite function well after 1440px and up. In the future, with more experience, I would want to ensure that the website is function no matter the size of the screen.
+
+
+
+IMAGE
+
+
+
+On the Contact Form, due to having the email entry a required element, the CSS which forces the placeholder text up and out of the box during :focus and :valid doesn't function as planned if the user types anything but an email address. After numerous attempts, I decided that this would need to wait until I have more experience, before I am able to correct the CSS to function more effectively.
+
+
+
+IMAGE
+
+
+
 
 ## Deployment
 

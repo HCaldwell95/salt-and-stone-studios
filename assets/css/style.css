@@ -764,3 +764,11 @@ body p, body h4 {
     gap: 10px;
 }
 }
+
+/* README Styles */
+
+#nav-bar-readme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
