@@ -13,6 +13,8 @@ Below, I will outline each step of the process and my reasonings used to plan th
 
 Thank you for taking the time to view my project and I truly hope you enjoy it as much as I did designing and developing it.
 
+<a href="https://hcaldwell95.github.io/salt-and-stone-studios/">View live project here</a>
+
 ## UX - User Experience Design
 
 The inspiration behind the planning of this project comes largely from my love of music and lifelong dream of establishing my on recording studio (purely for my hobbies and not for a career!). I am a musician myself and I've always been inspired by the great creatives of our generation. By thinking of the user experience through each step of this design journey, it has resulted in a more positive experience and general feel.
@@ -108,15 +110,21 @@ I chose these fonts because they are subtle and cohesive. They allowed for just 
 
 Incorporating social media links in the footer, complete with a subtle hover effect, allows users to interact without overwhelming colours.
 
+Uniform imagery throughout the project helps to condense the text and also allows the user to take a breath and enjoy the view. All images are relatable and relevant to the content displayed on the page.
+
+The text will be consistent on all pages in fonts and colors with subtle changes to layouts and positioning to prevent monotonous scrolling through similar looking content.
+
+Responsive design across all devices guarantees proper image scaling and readability without pixelation, making content accessible to a wide range of users.
 
 ## Skeleton Plane
 
+I found it beneficial to prepare written drafts of all my pages in advance. This approach allowed me to proofread and correct any grammatical errors while providing a structured foundation for my content. Writing the content in advance allowed me to carefully plan text placement, paragraph structure, and the use of subheadings.
+
+I mocked up a few designs on MicrosoftWord, simply for the general layout and flow of the website and this allowed me to piece together the puzzle that was my final design.
+
 ## Surface Plane
 
-
-Salt And Stone is a site that aims to attract and inspire musicians to come and join us in their creative endeavours. The site encourages positivity and promotes a healthy connection to the world. The target audience for this site will be musicians of all calber, film-makers and media enthusiasts alike. Salt And Stone will be useful for all interested parties who are looking for a creative space to bring their ideas to life. All information that they require will be available throughout the site, along with a comprehensive contact list for any queries beyond the original scope of the site and a booking form.
-
-<a href="https://hcaldwell95.github.io/salt-and-stone-studios/">View live project here</a>
+In the features section below, you will see all of the features that I have implemented in their final form, thus forming the Surface Plane.
 
 ## Features
 
