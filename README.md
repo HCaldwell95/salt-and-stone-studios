@@ -1,7 +1,6 @@
 # Salt And Stone Studios - My Milestone Project
 
-IMAGE
-
+<img src="assets/images/responsive-test.jpg" alt="Image showing responsive test for my website" width="100%">
 
 
 Welcome to my first milestone project, Salt And Stone Studios.
@@ -12,17 +11,97 @@ The purpose of this project is to demonstrate my learning and understanding of t
 
 Below, I will outline each step of the process and my reasonings used to plan this project. I will reference my sources and highlight my focus on user experience design.
 
-### UX - User Experience Design
+Thank you for taking the time to view my project and I truly hope you enjoy it as much as I did designing and developing it.
+
+## UX - User Experience Design
+
+The inspiration behind the planning of this project comes largely from my love of music and lifelong dream of establishing my on recording studio (purely for my hobbies and not for a career!). I am a musician myself and I've always been inspired by the great creatives of our generation. By thinking of the user experience through each step of this design journey, it has resulted in a more positive experience and general feel.
+
+I have broken down the planning into the five planes:
+- __The Strategy Plane__ 
+- __The Scope Plane__
+- __The Structure Plane__
+- __The Skeleton Plane__
+- __The Surface Plane__
+  
+
+## Strategy Plane
+
+My aim as the creator of this project is to instill the inspiration that I feel towards music and companionship.
+
+#### Creator Stories
+
+Creator Goals
+- I aim to ensure my project is easy to navigate.
+- Due to my project being a mostly information-based site, I don't want my users to get lost in the text.
+- As a creator, I strive to onvoke positive emotional responses from users.
+- My content should be relatable. Any images, text or quotes should have purpose.
+- I don't want to overload my users with information so I need to invest time into establishing a structure that works well for my project. It should ease the user in.
+
+Once I established my strategy, the most important consideration from the user's perspective was how a user would feel going through the project.
+
+#### User Stories
+
+First-time visitor goals:
+
+- As a first-time visitor, I want instant clarity about the project's purpose upon landing on the page.
+- I desire effortless navigation - the ability to return to the home page quickly and a seemless way to move forward without needing to scroll back through the content.
+- I hope to find reinforcement and support for the content that I am consuming through quotes, stories or images.
+- I aim to experience a sense of progression while navigating the page without feeling overwhelmed or lost.
+- I want to enjoy a visualy engaging experience without becoming fatigued.
+
+Returning visitor goals
+
+- As a revisiting user, I aim to establish contact with the creator or creators, either through social links or a dedicated contact page.
+- I seek the ability to reference information sources or discover the origins of the provided content.
+
+The user stories empower me to develop a clearer concept of the project's feature requirements and their relative priorities.
+
+During my initial planning, I researched local studios in the area and reviewed their websites. Many of these websites overloaded their users with so much content, whereas others went in the other direction and had very minimal information about the studio and the services they provided. 
+
+I asked my friends and fellow musicians, what elements of a music studio that they would be concerned with and their responses helped me to establish the core content for the website and where my focus should be.
+
+## Scope Plane
+
+Based on my strategy goals, I was able to establish that I wouldn't be able to implement everything that I had thought of and the suggestions of what users would like to see. It simply wasn't feasible for my initial release. 
+
+The easiest solution for me to start was a minimum viable product, which would provide the core content that I had deduced from my research.
+
+From this, I was able to split my project into three phases.
+
+#### Phase 1 - 
+
+- A home page with an introduction to the project, which I decided should also host the "About" content.
+- A studios page where I could detail the space provided.
+- A 'Meet The Team' page to introduce the team. This was an essential element as it was a consideration my fellow musicians regarded highly.
+- A 'Contact Us' page, complete with a form to allow users to get in touch.
+
+#### Phase 2 - 
+
+- An expansion on both the 'Studios' and 'Meet The Team' pages, complete with additional images.
+- Further refining of all of the styles throughout the website, allowing for consistency.
+
+#### Phase 3 (Future Features) -
+- Interactive Elements (to be implemented once I have knowledge of JavaScript)
+- Light Mode/Dark Mode toggle 
+
+Having a phased approach would allow me to release a functional website, containing all of the fundamental content that my users desire while allowing me to refine my design, better understand my flaws and collect feedback.
+
+## Structure Plane
+
+
+
+## Skeleton Plane
+
+## Surface Plane
 
 
 Salt And Stone is a site that aims to attract and inspire musicians to come and join us in their creative endeavours. The site encourages positivity and promotes a healthy connection to the world. The target audience for this site will be musicians of all calber, film-makers and media enthusiasts alike. Salt And Stone will be useful for all interested parties who are looking for a creative space to bring their ideas to life. All information that they require will be available throughout the site, along with a comprehensive contact list for any queries beyond the original scope of the site and a booking form.
 
 <a href="https://hcaldwell95.github.io/salt-and-stone-studios/">View live project here</a>
 
-ADD LINK
 
-*Insert Image Here
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features
 
@@ -107,16 +186,38 @@ If this section grows too long, you may want to split it off into a separate fil
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-## Deployment FORKING AND CLONING explain how to do these things.
+## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+#### Github
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Main (UPDATE) Reword all references to master to main
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+This project is deployed using GitHub pages using the following process,
 
-The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
+#### Deploying a GitHub Repository via GitHub Pages
+
+1. In your <em>Repository</em> section, select the <em>Repository</em> you wish to deploy.
+2. In the top horizontal Menu, locate and click the <em>Settings</em> link.
+3. Inside the <em>Setting</em> page, around halfway down locate the <em>GitHub Pages</em> Section.
+4. Under <em>Source</em>, select the None tab and change it to <em>Main</em> and click <em>Save</em>.
+5. Finally once the page resets scroll back down to the <em>GitHub Pages</em> Section to see the following message "Your site is ready to be published at (<em>Link to the GitHub Page Web Address</em>)". It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
+
+#### Forking the Github Repository
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
+
+1. Find the GitHub repository.
+2. At the top of the page to the right, under your account, click the <em>Fork</em> button.
+3. You will now have a copy of the repository in your GitHub account.
+
+#### Making a Local Clone
+
+1. Find the GitHub Repository.
+2. <em>Click</em> the Code button
+3. <em>Copy</em> the link shown.
+4. In <em>Gitpod</em>, change the directory to the location you would like the cloned directory to be located.
+5. <em>Type</em> <code>git clone</code>, and <em>paste</em> the link you copied in step 3.
+6. Press <em>Enter</em> to have the local clone created.
+
+The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone-studios>
 
 ## Credits - CODE REFERENCES - MENTION CODE INSTITUTE - IMAGES (LINK INSTAGRAM) PIXELS / UNSPLASH - GOOGLE IMAGES SEARCH CORRECT: LINK TO SITE OR PAGE MULTIPLE SOURCES AND LINKS IN BULLET POINTS (NO COPYRIGHT TEXT) PROJECT MADE SOLELY FOR EDUCATIONAL PURPOSE
 
@@ -126,35 +227,53 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content
 
+#### Code
+
+- <a href="https://codeinstitute.net/">Code Institute, Various Tutors</a>
+  - Helped me to find solutions to many of my coding issues/queries and allowed me to refer to specific modules for further guidance.
+
+- <a href="https://www.youtube.com/@OnlineTutorialsYT">Online Tutorials</a>
+  - Idea for the contact us page and form taken from their video. <a href="https://www.youtube.com/watch?v=gggB0Nq5vBk&t=654s">Link to video</a>
+
+- <a href="https://www.w3.org/">World Wide Web Consortium (W3C)</a>
+  - Provided access to many 'How To' pages, namely the contact cards in contact.html. Provided specific guide for 'Meet The Team' cards. <a href="https://www.w3schools.com/howto/howto_css_team.asp">Link to page</a>
+
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- <a href="https://www.google.co.uk/">Google Images</a>
+  - All of my images have been pulled from a google search:
+    - https://www.soundonsound.com/people/brendan-perry-quivvy-studio-church-music
+    - https://www.visitsnowdonia.info/sites/default/files/styles/home_hero_carousel_1400x600_/public/Llyn%20Llydaw%2C%20Snowdon%20-%20Yr%20Wyddfa%201400%20600.png?itok=QfjqcYiL
+    - https://bravewords.com/medias-static/images/news/2015/556DB266-bullet-for-my-valentine-post-venom-studio-diary-part-one-video-image.jpg
+    - https://www.telegraph.co.uk/content/dam/music/2015-08/Aug26/Stereophonics.jpg?imwidth=680
+    - https://www.pmtonline.co.uk/media/blog/BEST-AUDIO-MIXERS-d.jpg
+    - https://media.istockphoto.com/id/1342954577/photo/
+    - https://www.insauga.com/alexisonfire-headlines-st-catharines-born-raised-summer-shows/
+    - https://i1.pickpik.com/photos/949/859/697/background-black-coffee-coffee-desk-preview.jpg
+    - https://www.rawmusictv.com/images/og-share-image/wade-macneil.jpg
+    - https://magnetmagazine.com/wp-content/uploads/2023/03/CC-683x1024.jpg
+    - https://i.ytimg.com/vi/WnVdSogBNXM/maxresdefault.jpg
+  
+- <a href="https://ui.dev/amiresponsive?url=https://hcaldwell95.github.io/salt-and-stone-studios/">Am I Responsive?</a> - Provided image used at the top of README.md to demonstrate responsiveness.
+<br>
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+- <a href="https://www.youtube.com/channel/UCbd18DQEmUApY3vE_N9UYOg">Youtube @ City And Colour</a> - The embedded video on my home page is from City And Colour's Youtube page.
+<a href="https://www.youtube.com/watch?v=DPjf5fGwQg0">Link to video</a>
 
-## Other General Project Advice REMOVE OR FINAL PARAGRAPH OR POTENTIAL ISSUES (CODEANYWHERE ISSUE) OTHER USER SHOWN ON GITHUB FEEDBACK
+<br>
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
+- The icons throughout were taken from <a href="https://fontawesome.com/">Font Awesome</a>.
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
-  - Make sure to keep the messages in the imperative mood
+## Other General Project Advice
 
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
+#### CodeAnywhere
 
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+I encounted multiple issues with this IDE. From losing my progress on multiple occasions to workspaces simply being corrupt and unable to open. Part way through the project, I switched over to GitPod. This left me with concerns that my git commits may not be consistent.
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
-GOOGLE FORM - ASUME IT'S BROKEN! 9AM SUBMIT - EMAIL CONFIRMATION - REPOSITORY SHOW FORKED DO NOT TOUCH PROJECT AFTER SUBMISSION. FINAL VALIDATION CHECK PRIOR TO SUBMITTING MENTION WHAT SCREEN SIZES IN THE TESTING SECTION.
+#### GitHub
 
-CONTACT TITLE = CHANGE COLOUR 
-FONT LARGER ON HERO IMAGE
-CHANGE GRID ON LAPTOP SCREEN
+During this project, my account was migrated to a Code Institute student account. All of my repositories and access remained, but when reviewing the git logs, there is a difference shown between my profile during this stage. Both profiles share the name of HCaldwell95, but at first glance it appears that the git commits come from another user. I can confirm that all commits have been from myself and no other user has ever accessed my project. I believe this is due to the account migration.
