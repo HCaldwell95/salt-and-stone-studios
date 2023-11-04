@@ -2,12 +2,11 @@
 
 <img src="assets/images/responsive-test.jpg" alt="Image showing responsive test for my website" width="100%">
 
-
 Welcome to my first milestone project, Salt And Stone Studios.
 
-After ten years in the Construction Industry, I decided it was time for a change. I have always had an interest in computing and had always dreamed of having a job where I could utilise my computer skills, but the opportunity never came. Earlier this year, I decided to take a leap of faith and enroll in a Full Stack Development course.
+After ten years in the Construction Industry, I decided it was time for a change. I have always had an interest in computing and had always dreamed of having a job where I could utilise my computer skills, but the opportunity never came. Earlier this year, I decided to take a leap of faith and enrol in a Full Stack Development course.
 
-The purpose of this project is to demonstrate my learning and understanding of the HTML and CSS modules that I have completed thus far and to implement them into a live project. This was a great opportunity to showcase my skills in design and development. The project is a fucntional website, built with HTML and CSS.
+The purpose of this project is to demonstrate my learning and understanding of the HTML and CSS modules that I have completed thus far and to implement them into a live project. This was a great opportunity to showcase my skills in design and development. The project is a functional website, built with HTML and CSS.
 
 Below, I will outline each step of the process and my reasonings used to plan this project. I will reference my sources and highlight my focus on user experience design.
 
@@ -17,7 +16,7 @@ Thank you for taking the time to view my project and I truly hope you enjoy it a
 
 ## UX - User Experience Design
 
-The inspiration behind the planning of this project comes largely from my love of music and lifelong dream of establishing my on recording studio (purely for my hobbies and not for a career!). I am a musician myself and I've always been inspired by the great creatives of our generation. By thinking of the user experience through each step of this design journey, it has resulted in a more positive experience and general feel.
+The inspiration behind the planning of this project comes largely from my love of music and lifelong dream of establishing my own recording studio (purely for my hobbies and not for a career!). I am a musician myself and I've always been inspired by the great creatives of our generation. By thinking of the user experience through each step of this design journey, it has resulted in a more positive experience and general feel.
 
 I have broken down the planning into the five planes:
 - __The Strategy Plane__ 
@@ -29,14 +28,14 @@ I have broken down the planning into the five planes:
 
 ## Strategy Plane
 
-My aim as the creator of this project is to instill the inspiration that I feel towards music and companionship.
+My aim as the creator of this project is to instil the inspiration that I feel towards music and companionship.
 
 #### Creator Stories
 
 Creator Goals
 - I aim to ensure my project is easy to navigate.
 - Due to my project being a mostly information-based site, I don't want my users to get lost in the text.
-- As a creator, I strive to onvoke positive emotional responses from users.
+- As a creator, I strive to invoke positive emotional responses from users.
 - My content should be relatable. Any images, text or quotes should have purpose.
 - I don't want to overload my users with information so I need to invest time into establishing a structure that works well for my project. It should ease the user in.
 
@@ -47,10 +46,10 @@ Once I established my strategy, the most important consideration from the user's
 First-time visitor goals:
 
 - As a first-time visitor, I want instant clarity about the project's purpose upon landing on the page.
-- I desire effortless navigation - the ability to return to the home page quickly and a seemless way to move forward without needing to scroll back through the content.
+- I desire effortless navigation - the ability to return to the home page quickly and a seamless way to move forward without needing to scroll back through the content.
 - I hope to find reinforcement and support for the content that I am consuming through quotes, stories or images.
 - I aim to experience a sense of progression while navigating the page without feeling overwhelmed or lost.
-- I want to enjoy a visualy engaging experience without becoming fatigued.
+- I want to enjoy a visually engaging experience without becoming fatigued.
 
 Returning visitor goals
 
@@ -133,7 +132,7 @@ In this section, you should go over the different parts of your project, and des
 ### Existing Features SCREENSHOTS OF FEATURE DISCUSSING - EVERYTHING IS A FEATURE EVEN PARAGRAPHS
 
 - __Logo__
-  - The logo for my project is stamped in the top left corner of the header and is consistant through every page. This serves as a constant reminder of where the user is and promotes connection.
+  - The logo for my project is stamped in the top left corner of the header and is consistent through every page. This serves as a constant reminder of where the user is and promotes connection.
 
   <img src="assets/images/logo-home-readme.png" alt="Image showing logo of website on Home page">
   <img src="assets/images/logo-studios-readme.png" alt="Image showing logo of website on Studios page">
@@ -161,8 +160,6 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 
   <img src="assets/images/about-readme.png" alt="Image showing about section of website">
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
 - __Quick Links__
 
   - This section allows the user to quickly navigate to the project's most popular social media pages.
@@ -177,7 +174,7 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 
 - __Experiences Image Grid__
 
-  - This section displays three images and a video, all of which represent the studio in some sense. The first image is of Snowdonia, the area that the studio is based in. The video demonstrates a world famous musician recording an album in the studio. The final two images are of famous musicians who have used the studios services in the past. This section will both entice and reassure users that this is an authentic website, providing high quality services.
+  - This section displays three images and a video, all of which represent the studio in some sense. The first image is of Snowdonia, the area that the studio is based in. The video demonstrates a world-famous musician recording an album in the studio. The final two images are of famous musicians who have used the studios services in the past. This section will both entice and reassure users that this is an authentic website, providing high quality services.
 
   <img src="assets/images/experience-grid-readme.png" alt="Image showing the experience grid section of the website">
 
@@ -192,7 +189,7 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 
 - __The Studios Page__
 
-  - The studios page provides the user with a run down of the current set up at the studio. There are links available to the equipment that the studio use, along with detailed information of the capabilities of each studio.
+  - The studios page provides the user with a run-down of the current set up at the studio. There are links available to the equipment that the studio use, along with detailed information of the capabilities of each studio.
   - This section is valuable to the user as they can determine whether the equipment available suits their needs and they can also learn a little more about said equipment through the links provided to each piece.
 
 <img src="assets/images/studios-readme.png" alt="Image showing the Studios page"></a>
@@ -312,10 +309,10 @@ The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone
 - <a href="https://ui.dev/amiresponsive?url=https://hcaldwell95.github.io/salt-and-stone-studios/">Am I Responsive?</a> - Provided image used at the top of README.md to demonstrate responsiveness.
 <br>
 
-- <a href="https://www.youtube.com/channel/UCbd18DQEmUApY3vE_N9UYOg">Youtube @ City And Colour</a> - The embedded video on my home page is from City And Colour's Youtube page.
+- <a href="https://www.youtube.com/channel/UCbd18DQEmUApY3vE_N9UYOg">YouTube @ City And Colour</a> - The embedded video on my home page is from City And Colour's YouTube page.
 <a href="https://www.youtube.com/watch?v=DPjf5fGwQg0">Link to video</a>
 
-<br>
+- All fonts were taken from <a href="https://fonts.google.com/">Google Fonts</a>.
 
 - The icons throughout were taken from <a href="https://fontawesome.com/">Font Awesome</a>.
 
@@ -323,10 +320,8 @@ The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone
 
 #### CodeAnywhere
 
-I encounted multiple issues with this IDE. From losing my progress on multiple occasions to workspaces simply being corrupt and unable to open. Part way through the project, I switched over to GitPod. This left me with concerns that my git commits may not be consistent.
+I encountered multiple issues with this IDE. From losing my progress on multiple occasions to workspaces simply being corrupt and unable to open. Part way through the project, I switched over to GitPod. This left me with concerns that my git commits may not be consistent.
 
 #### GitHub
 
 During this project, my account was migrated to a Code Institute student account. All of my repositories and access remained, but when reviewing the git logs, there is a difference shown between my profile during this stage. Both profiles share the name of HCaldwell95, but at first glance it appears that the git commits come from another user. I can confirm that all commits have been from myself and no other user has ever accessed my project. I believe this is due to the account migration.
-
-[def]: ssets/images/studios-readme.pn
