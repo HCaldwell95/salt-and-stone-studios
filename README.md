@@ -129,7 +129,7 @@ In the features section below, you will see all of the features that I have impl
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-### Existing Features SCREENSHOTS OF FEATURE DISCUSSING - EVERYTHING IS A FEATURE EVEN PARAGRAPHS
+### Existing Features
 
 - __Logo__
   - The logo for my project is stamped in the top left corner of the header and is consistent through every page. This serves as a constant reminder of where the user is and promotes connection.
@@ -139,24 +139,36 @@ In this section, you should go over the different parts of your project, and des
   <img src="assets/images/logo-team-readme.png" alt="Image showing logo of website on Team page">
   <img src="assets/images/logo-contact-readme.png" alt="Image showing logo of website on Contact page">
 
+<br>
 
 - __Navigation Bar__
 
 The fully responsive navigation bar, featured consistently on all four pages, contains links to the Home, Studios, Team and Contact pages. Its consistency across all pages ensures seamless navigation, regardless of the user's device, eliminating the need to rely on the browser's 'back' button for page transitions. On mobile devices, the navigation bar is nested within a hamburger icon; once clicked, it reveals a dropdown menu, ultimately saving precious screen real estate on smaller devices.
+
+<br>
+
 <div id="nav-bar-readme">
 <img src="assets/images/navbar-dropdown.png" alt="Image demonstrating navigation bar dropdown menu">
 <img src="assets/images/navbar-extended.png" alt="Image demonstrating navigation bar extended on larger screens">
 </div>
 
+<br>
+
 - __The Landing Page__
 
   - The Landing Page features a captivating photograph, overlayed with text, offering users a clear sense of the site's relevance to specific locations. This section introduces the website and reassures users that they are in the right place.
 
+  <br>
+
 <img src="assets/images/landing-page-readme.png" alt="Image showing landing page of website">
+
+<br>
 
 - __About Section__
 
   - The about section will allow the user to get to know the Studio and its history. This user will see the value of looking further into this website and exploring everything that it has to offer.. This should encourage the user to consider booking time in at our studio or be inspired and get creative.
+
+  <br>
 
   <img src="assets/images/about-readme.png" alt="Image showing about section of website">
 
@@ -176,6 +188,8 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 
   - This section displays three images and a video, all of which represent the studio in some sense. The first image is of Snowdonia, the area that the studio is based in. The video demonstrates a world-famous musician recording an album in the studio. The final two images are of famous musicians who have used the studios services in the past. This section will both entice and reassure users that this is an authentic website, providing high quality services.
 
+  <br>
+
   <img src="assets/images/experience-grid-readme.png" alt="Image showing the experience grid section of the website">
 
 <br>
@@ -185,12 +199,18 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 - The footer contains a 'Back To The Top!' button, disguised as a simple up arrow icon. There are also four links to the most popular social media websites, along with the studio address and a small emblem representing the studios date of establishment. 
 - The footer is consistant throughout the website, allowing users to become familiar with the navigation between pages. The social media features encourage user loyalty as they are able to connect deeper through social media links.
 
+<br>
+
 <img src="assets/images/footer-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
+
+<br>
 
 - __The Studios Page__
 
   - The studios page provides the user with a run-down of the current set up at the studio. There are links available to the equipment that the studio use, along with detailed information of the capabilities of each studio.
   - This section is valuable to the user as they can determine whether the equipment available suits their needs and they can also learn a little more about said equipment through the links provided to each piece.
+
+  <br>
 
 <img src="assets/images/studios-readme.png" alt="Image showing the Studios page"></a>
 
@@ -198,13 +218,26 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 
   - This page will allow the user to get to know the team. Users can learn more about the artists who established the studio and gain confidence in their abilities. This also provides users with familiarity.
 
+  <br>
+
 <img src="assets/images/team-readme.png" alt="Image showing the Team page"></a>
 
 - __The Contact Page__
 
-This page displays all means of communication with the studio. There is also a form established to allow the users to communicate with the creators.
+  - This page displays all means of communication with the studio. There is also a form established to allow the users to communicate with the creators. 
 
-<img src="assets/images/contact-readme.png" alt="Image showing the Contact"></a>
+<img src="assets/images/contact-one-readme.png" alt="Image showing the Contact page"></a>
+
+<br>
+
+<img src="assets/images/contact-two-readme.png" alt="Image showing the Contact page"></a>
+
+  - This form will not allow the users to send it until all of the required criteria is met. The user will be prompted to enter the correct details as detailed in the image below:
+
+  <br>
+
+<img src="assets/images/contact-form-readme.png" alt="Image showing the Contact page"></a>
+
 
 ## Testing
 
@@ -226,17 +259,20 @@ I used the  <a href="https://validator.w3.org/">W3C CSS Validator</a> and <a hre
 - No errors were returned when passing through the official <a href="https://validator.w3.org/">W3C Markup Validator</a>.
 - No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.
 
-Testing User stories from User Experience Design (UX) Section
-
-
-### Unfixed Bugs NO SITE BREAKING BUGS IS FINE - NOTE FINDINGS
+### Unfixed Bugs
 
 - I discovered that my CSS didn't quite function well after 1440px and up. In the future, with more experience, I would want to ensure that the website is function no matter the size of the screen.
 
+<br>
+
 <img src="assets/images/hero-image-bug-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
-<hr>
+
+<br>
+
 - On the Contact Form, due to having the email entry a required element, the CSS which forces the placeholder text up and out of the box during :focus and :valid doesn't function as planned if the user types anything but an email address. After numerous attempts, I decided that this would need to wait until I have more experience, before I am able to correct the CSS to function more effectively.
 
+<br>
+<br>   
 
 <img src="assets/images/contact-bug-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
 
@@ -276,8 +312,6 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone-studios>
 
 ## Credits
-
-### Content
 
 #### Code
 
