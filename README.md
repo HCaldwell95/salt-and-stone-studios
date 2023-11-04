@@ -89,6 +89,24 @@ Having a phased approach would allow me to release a functional website, contain
 
 ## Structure Plane
 
+Recognising early in the project that it would be text-intensive, the main challenge was ensuring user engagement and preventing them from being overwhelmed. I sought inspiration through a long list of familiar websites, shortlisting any text-intensive websites that felt good and didn't overwhelm. From this list, I reviewed their structure and came up with my own layout to recreate that feeling.
+
+The colour palette for my project was based on an Earthly, Coastal, Modern concept. I wanted the website to feel clean and cut like modern pages, consisting of monochrome elements, while retaining Earthy tones to represent the historical and landscape elements to the studio. The Earthy and Coastal theme was inherited by my home, North Wales. This is also the influence behind the name, Salt And Stone. I live on the coast, yet I am surrounded by mountains. 
+
+Initially, I had intended on having an image as the entire background, but I felt that a busy background combined with a text-intensive website would not make for an enjoyable experience. I decided to proceed with a white background with standard black text for the bulk of the content. This way, I could consciously include only images and features that would add to the website's appeal.
+
+#### Typography:-
+
+- Lora
+- Tai Heritage Pro
+
+I chose these fonts because they are subtle and cohesive. They allowed for just enough separation between headings and paragraphs that didn't draw your attention too much. Both fonts are very easy to read, making it accessible to most people.
+
+#### Additional Considerations
+
+- It was crucial that my navigation bar and footer remained consistent throughout the website. This provides familiarity and comfort to the user and promotes effective navigation on their part. I included a 'Back To The Top!' button in the footer so that users don't need to scroll back through the content to reach the navigation bar.
+
+Incorporating social media links in the footer, complete with a subtle hover effect, allows users to interact without overwhelming colours.
 
 
 ## Skeleton Plane
@@ -162,43 +180,28 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 - The footer contains a 'Back To The Top!' button, disguised as a simple up arrow icon. There are also four links to the most popular social media websites, along with the studio address and a small emblem representing the studios date of establishment. 
 - The footer is consistant throughout the website, allowing users to become familiar with the navigation between pages. The social media features encourage user loyalty as they are able to connect deeper through social media links.
 
-<img src="assets/images/footer-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button>
+<img src="assets/images/footer-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
 
 - __The Studios Page__
 
   - The studios page provides the user with a run down of the current set up at the studio. There are links available to the equipment that the studio use, along with detailed information of the capabilities of each studio.
   - This section is valuable to the user as they can determine whether the equipment available suits their needs and they can also learn a little more about said equipment through the links provided to each piece.
 
-<a href="assets/images/studios-readme.png" alt="Image showing the Studios page"></a>
+<img src="assets/images/studios-readme.png" alt="Image showing the Studios page"></a>
 
 - __The Team Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+  - This page will allow the user to get to know the team. Users can learn more about the artists who established the studio and gain confidence in their abilities. This also provides users with familiarity.
 
-<a href="assets/images/team-readme.png" alt="Image showing the Team page"></a>
+<img src="assets/images/team-readme.png" alt="Image showing the Team page"></a>
 
 - __The Contact Page__
 
-<a href="assets/images/contact-readme.png" alt="Image showing the Contact"></a>
+This page displays all means of communication with the studio. There is also a form established to allow the users to communicate with the creators.
 
-### Features Left to Implement NOT REQUIRED 
+<img src="assets/images/contact-readme.png" alt="Image showing the Contact"></a>
 
-- Another feature idea
-
-## Testing MOST IMPORTANT - EVERYTHING NOT MENTIONED WILL BE IGNORED. BREAKDOWN PROJECT SIMILAR TO FEATURES AND EXPLAIN HOW IT HAS BEEN TESTED. TEST RESPONSIVENESS AND EFFECTS ETC SOCIAL MEDIA TO NEW PAGE AND CORRECT SITE - 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Separate File to demonstrate:
-
-
-
+## Testing
 
 ### Further Testing
 
@@ -223,20 +226,14 @@ Testing User stories from User Experience Design (UX) Section
 
 ### Unfixed Bugs NO SITE BREAKING BUGS IS FINE - NOTE FINDINGS
 
-I discovered that my CSS didn't quite function well after 1440px and up. In the future, with more experience, I would want to ensure that the website is function no matter the size of the screen.
+- I discovered that my CSS didn't quite function well after 1440px and up. In the future, with more experience, I would want to ensure that the website is function no matter the size of the screen.
+
+<img src="assets/images/hero-image-bug-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
+<hr>
+- On the Contact Form, due to having the email entry a required element, the CSS which forces the placeholder text up and out of the box during :focus and :valid doesn't function as planned if the user types anything but an email address. After numerous attempts, I decided that this would need to wait until I have more experience, before I am able to correct the CSS to function more effectively.
 
 
-
-IMAGE
-
-
-
-On the Contact Form, due to having the email entry a required element, the CSS which forces the placeholder text up and out of the box during :focus and :valid doesn't function as planned if the user types anything but an email address. After numerous attempts, I decided that this would need to wait until I have more experience, before I am able to correct the CSS to function more effectively.
-
-
-
-IMAGE
-
+<img src="assets/images/contact-bug-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
 
 
 
@@ -323,3 +320,5 @@ I encounted multiple issues with this IDE. From losing my progress on multiple o
 #### GitHub
 
 During this project, my account was migrated to a Code Institute student account. All of my repositories and access remained, but when reviewing the git logs, there is a difference shown between my profile during this stage. Both profiles share the name of HCaldwell95, but at first glance it appears that the git commits come from another user. I can confirm that all commits have been from myself and no other user has ever accessed my project. I believe this is due to the account migration.
+
+[def]: ssets/images/studios-readme.pn
