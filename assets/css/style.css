@@ -512,6 +512,10 @@ main {
     color: rgba(0, 31, 63, .83);
 }
 
+#quick-social-links a:hover {
+    color: #f9b546;
+}
+
 /* Styles for services content */
 #services {
     font-size: 80%;
@@ -566,6 +570,10 @@ footer {
     color: black;
 }
 
+.back-to-top a:hover {
+    color: #f9b546;
+}
+
 .social-networks>ul {
     padding-top: 10px;
     padding-left: 3%;
@@ -578,6 +586,10 @@ footer {
 
 .social-networks a {
     color:whitesmoke;
+}
+
+.social-networks a:hover {
+    color: #f9b546;
 }
 
 #social-network-icons {
